@@ -19,7 +19,7 @@ Un _ordenador_ o _computador_ es una máquina electrónica que funciona ejecutan
 
 ### Firmware y BIOS
 
-Un tipo especial de software es el _firmware_, el software que controla directamente el hardware del dispositivo y que suele estar en memoria _no volátil_ (aquella cuya información no se pierde si se desconecta el dispositivo de la alimentación eléctrica). En el caso del ordenador al firmware se le denomina _BIOS_ (Basis Input Output System) o, en los ordenadores modernos, UEFI.
+Un tipo especial de software es el _firmware_, el software que controla directamente el hardware del dispositivo y que suele estar en memoria _no volátil_ (aquella cuya información no se pierde si se desconecta el dispositivo de la alimentación eléctrica). En el caso del ordenador al firmware se le denomina _BIOS_ (Basic Input Output System) o, en los ordenadores modernos, UEFI.
 
 A la parte configurable del BIOS se le denomina _BIOS SETUP_. Permite configurar parámetros como la fecha y hora del sistema o desde qué unidad arrancar el sistema operativo.
 
@@ -39,7 +39,7 @@ Según la arquitectura Von Neumann, un ordenador está formado por los siguiente
 
 - _Unidad central de proceso_ (CPU de sus siglas en inglés). Al principio estaba formada por muchos componentes electrónicos hasta que se consiguió integrar en un único chip denominado _microprocesador_ o simplemente _procesador_. La CPU está formada por los siguientes elementos:
 	- _Unidad Aritmético lógica_ (ALU por sus siglas en inglés). Se encarga de realizar operaciones muy sencillas tanto de tipo aritmético (sumas, multiplicaciones) como de tipo lógico (AND, OR, NOT, etc.).
-	- _Unidad de Control_. Interpreta las instrucciones leídas de la memoria principal y gestio a todas las señales que se envían o reciben de los demás elementos (ALU, registros, memoria y sistema de entrada y salida).
+	- _Unidad de Control_. Interpreta las instrucciones leídas de la memoria principal y gestiona todas las señales que se envían o reciben de los demás elementos (ALU, registros, memoria y sistema de entrada y salida).
 	- _Registros_. Son pequeñas memorias de alta velocidad incluidas en el procesador. De entre ellas podemos destacar:
 		- _Acumulador_ (AX). Es donde se almacena uno de los operandos de la ALU. También suele servir de salida, almacenando el resultado de la operación. 
 		- _Registro de Estados_. Indica el resultado de las operaciones de la ALU (resultado cero, signo negativo, paridad, debordamiento, etc.). Cada bit, denominado _bandera_ o _flag_ representa un único estado, por lo que cada flag solo puede tomar dos valores (Por ejemplo, si el flag Signo está a 1 significa que el resultado de la operación a sido negativo y 0 en caso contrario).
@@ -60,7 +60,7 @@ La historia del ordenador suele organizarse en diferentes etapas o generaciones 
 - **Primera**. Los ordenadores se construyen con _válvulas_ (también llamadas _tubos de vacío_). Estos componentes electrónicos están formados por una ampolla de vídrio con varios filamentos. Con respecto a los transistores de la generación posterior, son elementos voluminosos y frágiles, que consumen mucha energía (se calientan) y con una vida útil relativamente corta.
 - **Segunda**. Los _transistores_, elementos de estado sólido realizados con semiconductores, sustituyen a las válvulas permitiendo circuitos mucho más pequeños y eficientes.
 - **Tercera**. Con la invención del _circuito integrado_ o _chip_ se consigue reunir en un solo elemento miles de transistores.
-- **Cuarta**. Se integran todos los chips que forman la CPU en un solo componente denominado _microproceador_.
+- **Cuarta**. Se integran todos los chips que forman la CPU en un solo componente denominado _microprocesador_.
 - **Quinta**. Aparición del ordenador portátil y de la inteligencia artificial.
 
 ### Lenguages de programación
@@ -351,7 +351,7 @@ La ubicación de la carpeta de la papelera de reciclaje depende del sistema de a
 
 - C:\RECYCLED - Sistemas FAT (Windows 3/95/98/Me)
 - C:\RECYCLER - Sistemas NTFS (Windows NT/2000/XP)
-- C:\$Recycle.Bin- A partir de Windows Vista/7
+- C:\\$Recycle.Bin- A partir de Windows Vista/7
 
 > En un sistema NTFS existe una subcarpeta por cada usuario en la carpeta de la papelera de reciclaje (C:\RECYCLER o C:Recycle.Bin). El sistema operativo evita que usuarios no administradores puedan acceder a los archivos personales de otros usuarios y esto incluye a la papelera de cada usuario.
 > 
